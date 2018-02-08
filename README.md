@@ -9,5 +9,7 @@ It uses config stored as per boto3 documentation, in ~/.aws/config and ~/.aws/cr
 
 ## Usage
 
-> $ python b3.py client glacier - list-vaults
-> ResponseMetadata: {"RequestId": "…", "HTTPStatusCode": 200, "HTTPHeaders": {"x-amzn-requestid": "…", "content-type": "application/json", "content-length": "30", "date": "Thu, 08 Feb 2018 20:39:34 GMT"}, "RetryAttempts": 0}
+``` bash
+$ python b3.py client glacier - list-vaults
+ResponseMetadata: {"RequestId": "…", "HTTPStatusCode": 200, "HTTPHeaders": {"x-amzn-requestid": "…", "content-type": "application/json", "content-length": "30", "date": "Thu, 08 Feb 2018 20:39:34 GMT"}, "RetryAttempts": 0}
+```
